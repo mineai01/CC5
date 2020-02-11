@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /* grid-row: 100%; */
+  /* width: 1420px; */
+  height: 100px;
+  text-align: center;
+}
+
+.link1 {
+  font-size: 50px;
+  padding: 20px;
+  margin: 20px;
+  color: white;
+  text-decoration: none;
+  font-family: "Kanit", sans-serif;
+  /* background-color: #626262 */
+}
+
+.link2 {
+  font-size: 50px;
+  padding: 20px;
+  margin: 20px;
+  color: white;
+  text-decoration: none;
+  font-family: "Kanit", sans-serif;
+  /* background-color: #888888 */
+}
+
+/* .linkPage {
+  font-size: 50px;
+  padding: 20px;
+  margin: 20px;
+  color:white;
+  text-decoration: none;
+  font-family: 'Kanit', sans-serif;
+} */
+
+.gridContent {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 20;
+}
+
+.gridContent p {
+  padding-left: 100px;
+  padding-top: 300px;
+  font-family: "Kanit", sans-serif;
+}
+
+.profileTable {
+  padding: 50px;
+  margin-top: 300px;
+  /* width: auto; */
+  height: 1000px;
+  font-size: 60px;
+}
+
+.grid-container {
+  /* margin-left:500px; */
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 20px;
+  padding: 30px;
+  font-size: 60px;
+  text-align: left;
+}
+
+.grid-container > table > tr > th {
+  padding: 20px;
+  font-size: 30px;
+}
+
+.grid-container > table > tr > td {
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.profileTable td {
+  /* border-collapse: separate;
+  border-spacing: 300px; */
+  padding: 20px;
+}
+
+.profileTable tr {
+  text-align: left;
+}
+
+h1 {
+  /* margin-block-start: 1em;
+    margin-block-end: 1em; */
+  padding: 100px;
+  text-align: center;
+  font-size: 150px;
+}
+
+table tbody{
+  display: table-row-group;
+    vertical-align: middle;
+    /* border-color: inherit; */
+}
+

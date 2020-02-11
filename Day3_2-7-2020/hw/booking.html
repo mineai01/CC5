@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kanit&display=swap&subset=thai"
+      rel="stylesheet"
+    />
+    <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
+    <link
+      href="/your-path-to-fontawesome/css/fontawesome.css"
+      rel="stylesheet"
+    />
+    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <span>
+        <a href="#">
+          <i class="fas fa-plane"></i>
+          Booking Flight
+        </a>
+      </span>
+      <span>
+        <a href="#">
+          <i class="fas fa-calendar-alt"></i>
+          Schedule
+        </a></span
+      >
+      <span
+        ><a href="#">
+          <i class="fas fa-ticket-alt"></i>
+          Ticket
+        </a></span
+      >
+      <span
+        ><a href="#">
+          <i class="fas fa-hotel"></i>
+          Hotel
+        </a></span
+      >
+    </div>
+
+    <div>
+      <form>
+        <div class="grid-container">
+          <div class="item1">
+            <p>Flying from</p>
+            <select name="flyingFrom" style="width:290px;">
+              <option value="thai">Thai</option>
+              <option value="japan">Japan</option>
+            </select>
+          </div>
+          <div class="item2">
+            <p>To</p>
+            <select name="To" style="width:290px;">
+              <option value="thai">Thai</option>
+              <option value="japan">Japan</option>
+            </select>
+          </div>
+
+          <div class="item3">
+            <p>Departing</p>
+            <input
+              type="date"
+              name="bday"
+              max="2020-12-31"
+              min="2020-02-31"
+              style="width:290px;"
+            />
+          </div>
+          <div class="item4">
+            <p>Returning</p>
+            <input
+              type="date"
+              name="bday"
+              max="2020-12-31"
+              min="2020-02-31"
+              style="width:290px;"
+            />
+          </div>
+
+          <div class="item5">
+            <p>Adult</p>
+            <input
+              type="number"
+              name="adult"
+              min="1"
+              max="5"
+              step="1"
+              value="1"
+              style="width:130px;"
+            />
+          </div>
+          <div class="item6">
+            <p>Child</p>
+            <input
+              type="number"
+              name="child"
+              min="1"
+              max="5"
+              step="1"
+              value="1"
+              style="width:130px;"
+            />
+          </div>
+          <div class="item7">
+            <p>Infant</p>
+            <input
+              type="number"
+              name="Infant"
+              min="1"
+              max="5"
+              step="1"
+              value="1"
+              style="width:130px;"
+            />
+          </div>
+          <div class="item8">
+            <p style="color:orangered">Currency</p>
+            <select name="Currency" style="width:130px;">
+              <option value="PKR">PKR</option>
+            </select>
+          </div>
+        </div>
+        <div class="search">
+          <input type="button" onclick="search" value="SEARCH" class="button" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

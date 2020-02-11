@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Document</title>
+    <style>
+      .animation {
+        animation-name: name;
+        animation-duration: 10s;
+        width: 500px;
+        height: 400px;
+        color: white;
+        font-size: 100px;
+        animation-delay: 5s;
+      }
+
+      @keyframes name {
+        0% {
+          background-color: black;
+          position: relative;
+          left: 10px;
+        }
+        25% {
+          background-color: green;
+          position: relative;
+          left: 20px;
+
+        }
+        50% {
+          background-color: blue;
+          position: relative;
+          left: 80px;
+        }
+        100% {
+          background-color: yellow;
+          position: relative;
+          left: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(216, 175, 255);">
+    <div class="animation">I’m animation</div>
+  </body>
+</html>
