@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?cs=srgb&dl=flight-landscape-nature-sky-36717.jpg&fm=jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+ }
+
+.header {
+   padding: 30px;
+ }
+
+ .card{
+  width: 60rem; 
+  height: 200rem;
+  text-align: center;
+  display:flex;
+  margin: auto;
+
+ }
+
+ .card-body{
+  
+ }
+
+b{
+  font-size: 50px;
+  letter-spacing: -3px;
+}
+
+.us{
+  color:#FF2362;  
+ }
+
+ Input{
+   text-align: center;
+ }
+
+h1{
+  padding-top: 50px;
+  color:white;
+  text-align: center;
+}
+
+h2{
+  color:white;
+  text-align: center;
+}
+
