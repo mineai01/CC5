@@ -79,9 +79,9 @@ form {
   border-radius: 10px;
 }
 
-.fa-plane{
+/* .fa-plane{
 font-size: 10px;
-}
+} */
 
 a {
   font-size: 25px;
@@ -92,6 +92,7 @@ a {
 input, select{
   border-radius: 5px;
   height: 30px;
+  border: solid gray 0.5px ;
 }
 
 p{
