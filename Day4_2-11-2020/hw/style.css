@@ -4,10 +4,12 @@
 }
 
 body {
-  background-image: url("https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?cs=srgb&dl=flight-landscape-nature-sky-36717.jpg&fm=jpg");
+  background-image: url(https://www.pimclick.com/wp-content/uploads/2018/11/contact-banner.jpg);
   background-color: #cccccc;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
  }
+
+ 
 
 .header {
    padding: 30px;
