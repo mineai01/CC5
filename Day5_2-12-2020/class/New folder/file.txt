@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 hello world
 
 sdsfasdfasdfasdfsadvdcbdrfhsd
@@ -6,6 +5,3 @@ sa;ldfl;kasdfgit kjhkhkjhj yahoo
 
 sdsfasdfasdfasdfsadvdcbdrfhsd
 sadf
-=======
-hello
->>>>>>> develop
