@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.fontPlayfairDisplay{
+  font-family: 'Playfair Display', serif;
+}
+
 body {
   background-image: url(https://www.pimclick.com/wp-content/uploads/2018/11/contact-banner.jpg);
   /* background-color: #cccccc; */
@@ -10,6 +14,8 @@ body {
   background-size: auto auto;
   background-position: 0px -100px;
 }
+
+
 
 .header {
   padding: 30px;
@@ -133,6 +139,16 @@ b {
   font-weight: 700;
   text-align: left;
 }
+
+.space{
+  line-height: 60px;
+}
+
+.space2{
+  line-height: 100px;
+}
+
+
 .picPhone {
   position: relative;
   background-repeat: no-repeat;
@@ -149,15 +165,16 @@ b {
   grid-column-end: 3;
 } */
 
-.digitalStrategy{
+.ourClients{
   margin: 50px auto;
   text-align: center;
   align-items: center;
   grid-column-start: 1;
   grid-column-end: 3;
+  /* font-family: 'Playfair Display', serif; */
 }
 
-.digitalStrategy p{
+.ourClients p{
 color:#e91126;
 }
 
