@@ -82,11 +82,13 @@
 // while (i++ < 5) alert( i );  // 1,2,3,4,5
 
 //-------------------------------------------
-//2.5.3 not fin
+//2.5.3
 
 // let num1 = +prompt("add number between 1 - 100");
 
 // let num2 = 0;
+
+// console.log("0000000")
 
 // while (num1 != num2) {
 //   if((num1 > num2) && (num1 <= 100)){
@@ -98,16 +100,6 @@
 //   }
 // };
 // alert("correct!!");
-
-// let num1 = +prompt("insert num1");
-
-// if ( num1 >= 1 || num1 <= 100 ){
-
-//   if( num1 == num2 ){
-    
-//   }
-  
-// }
 
 //-------------------------------------------
 // Lab switch case
@@ -158,3 +150,275 @@
 // }
 
 // draw(3);
+
+//------------------------------------------------------
+// JavaScript 2-20-2020
+// Lab1
+
+// let ask = (question, yes, no) => {
+//   if (confirm(question)) {
+//     return yes()
+//   } else {
+//     return no();
+// }
+// }
+
+// ask (alert("Do you agree?"),
+//  () => alert("You agreed.") ,
+//  () => alert("You canceled the execution."));
+
+//-----------------------------------------------
+
+// function pow(x, n) {
+//   let result = 1;
+
+//   for (let i = 0; i < n; i++) {
+//     result *= x;
+//   }
+
+//   return result;
+// }
+
+// let x = prompt("x?", "");
+// let n = prompt("n?", "");
+
+// if (n <= 0) {
+//   alert(`Power ${n} is not supported,
+//   please enter an integer number greater than zero`);
+// } else {
+//   alert(pow(x, n));
+// }
+
+//-----------------------------------------
+
+// let name1 = prompt("name1");
+// let weight1 = +prompt("weight1");
+// let height1 = +prompt("height1");
+
+// let name2 = prompt("name2");
+// let weight2 = +prompt("weight2");
+// let height2 = +prompt("height2");
+
+// let bmi1 = ((height1/100)**2)/weight1;
+// let bmi2 = ((height2/100)**2)/weight2;
+
+// console.log(bmi1);
+// console.log(bmi2);
+
+// let bmi = ( bmi1, bmi2) =>{
+
+//   if (bmi1 > bmi2){
+//     alert(`${name1} more than ${name2}`);
+//     return;
+
+//   } else if (bmi1 < bmi2){
+//     alert(`${name1} less than ${name2}`);
+//     return;
+
+//   }else if(bmi1 === bmi2){
+//     alert(`${name1} Equal to ${name2}`);
+//     return;
+
+//   }else{
+//     alert("err");
+//     return;
+
+//   }
+
+// };
+
+// bmi(bmi1,bmi2);
+
+//------------------------------------------------
+//not fin
+// +prompt("insert numA");
+
+// let B = 0;
+
+// while (true) {
+//   let A = prompt("insert numB");
+
+//   if (+A >= B) {
+//     B = A;
+//     console.log(A);
+//   } else if (A == null) {
+//     alert(B);
+//     break;
+//   }
+// }
+
+//-------------------------------------------------
+
+// let human = {};
+
+// // console.log(user["computer skill"]);
+
+// human.studentName = "tong";
+// human.studentAge = 29;
+// human.studentTa = "Tuck";
+// human.isSingle = false;
+// human.intelligentPoint = 5;
+
+// console.log(human);
+
+//------------------------------------------------
+
+// let key;
+// let value;
+// let obj;
+// // let keyIns;
+// // let valIns;
+
+// while (true) {
+
+//   key = prompt("insert key");
+//   value = prompt("insert value");
+
+//   obj = {};
+
+//   if (true) {
+//     obj[key] = value;
+//   }else if(key = stop){
+//     alert(obj);
+//     break;
+//   }else{
+//     console.log("err");
+//   }
+
+// }
+
+//-------------------------------
+// let obj1 ={};
+// let v1 = "firstName";
+// let v2 = "lastName";
+// let v3 = "Height";
+
+// obj1[v1] = "Patteera";
+// obj1[v2] = "Banlangthammas";
+// obj1[v3] = "156cm.";
+
+// console.log(obj1);
+
+//-------------------------------
+
+// let obj1 = {};
+// let fruit,num;
+
+// fruit = prompt("insert fruit name");
+// num = +prompt("insert num of fruit");
+
+// let value1 = num ;
+
+// if ( num > 1){
+//   fruit = `${fruit}s`;
+// }
+
+// let key1 = fruit ;
+
+// obj1[key1] = value1 ;
+
+// console.log(obj1);
+
+//---------------------------------
+
+// sunday
+
+// let x = prompt("input");
+// if( x=="Tong"){
+//   alert("เก่งมาก");
+// }else{
+//   alert("คุณไม่รู้จักชื่อฉัน");
+// }
+
+// ----------------------
+
+// let x = prompt("point");
+
+// if( x >= 80 ){
+//   alert("A");
+// }else if( x >= 70){
+//   alert("B");
+// }else if( x >= 60){
+//   alert("C");
+// }else if( x >= 50){
+//   alert("D");
+// }else{
+//     alert("F");
+// }
+
+//----------------------
+
+// let age = prompt("Hoe old sre you?");
+// let price = (age < 18) ? 2000 :3500 ;
+
+//----------------------
+
+// let x = prompt("Age is");
+// let age = ( x >= 18 && x <= 60 ) ? alert("Age in 18-60") : alert("Age Out of 18-60");
+
+// -----------------------------------------------
+
+// let x = prompt("Age is");
+// let age = (!( x >= 18 && x <= 60 )) ? alert("Age Out of 18-60"): alert("Age in 18-60") ;
+
+//------------------------------------------------
+
+// let admin = prompt("login");
+
+// if (admin === "Admin") {
+//   let password = prompt("password");
+
+//   if (password === "codecamp#5") {
+//     alert("ยินดีต้อนรับ");
+//   } else if (password === "" || password === null) {
+//     alert("Cancel");
+//   } else {
+//     alert("wrong password");
+//   }
+// } else if (admin === "" || admin === null) {
+//   alert("cancel");
+// } else {
+//   alert(" I don't know you.");
+// }
+
+
+//------------------------------------------------
+// let i = 2;
+// while ( i <= 10 ){
+//   alert(i);
+//   i++;
+// }
+
+// let i = 0;
+// while( i < 3){
+//   alert(`number ${i}!`);
+//   i++;
+// }
+
+//----------------------------------------------
+let num1 ;
+
+while(true){
+  num1 = +prompt("insert 1-100");
+  if(num1 >= 1 && num1 <= 100){
+    num1 = num1;
+    break;
+  }
+}
+
+
+
+while(true){
+  let num2 = +prompt("insert num2");
+
+  if(num1 < num2){
+    alert("มากกว่าค่าแรก ลองใหม่");
+
+  }else if(num1 > num2){
+    alert("น้อยกว่าค่าแรก ลองใหม่");
+
+  }else{
+    alert("ถูกต้อง");
+    break;
+  }
+}
